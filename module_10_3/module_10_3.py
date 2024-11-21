@@ -1,8 +1,7 @@
 import threading
 
-
 class Bank:
-    lock = Lock()
+    lock = threading.Lock()
     def __init__(self):
         pass
     def deposit(self):
