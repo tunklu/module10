@@ -1,6 +1,7 @@
 import threading
 
 class Bank:
+    balance  = int
     lock = threading.Lock()
     def __init__(self):
         pass
